@@ -11,7 +11,7 @@
 由于时间因素,只测试了一次Pierre Dellacherie算法,消行数13W+
 第2种算法没有花时间去测试,理论上消行数应该比较可观
 
- ![image](https://github.com/bingghost/SimpleTetris/raw/master/images/ai.jpg)
+ ![image](https://github.com/bingghost/SimpleTetris/blob/master/raw/master/images/ai.jpg)
 
 下面简单介绍2种AI算法实现思路
 
@@ -156,12 +156,12 @@ AI算法主要是评分函数: 所以只介绍评分函数
 
 ## 游戏截图
 
-![image](https://github.com/bingghost/SimpleTetris/raw/master/images/menu.png)
+![image](https://github.com/bingghost/SimpleTetris/blob/master/raw/master/images/menu.png)
 
-![image](https://github.com/bingghost/SimpleTetris/raw/master/images/game.png)
+![image](https://github.com/bingghost/SimpleTetris/blob/master/raw/master/images/game.png)
 
-![image](https://github.com/bingghost/SimpleTetris/raw/master/images/setting.png)
+![image](https://github.com/bingghost/SimpleTetris/blob/master/raw/master/images/setting.png)
 
-![image](https://github.com/bingghost/SimpleTetris/raw/master/images/score.png)
+![image](https://github.com/bingghost/SimpleTetris/blob/master/raw/master/images/score.png)
 
-![image](https://github.com/bingghost/SimpleTetris/raw/master/images/astar.png)
+![image](https://github.com/bingghost/SimpleTetris/blob/master/raw/master/images/astar.png)
