@@ -20,26 +20,39 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity android:name=".activity.MainActivity" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.GameActivity" >
+        <activity
+            android:name=".activity.GameActivity"
+            android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".activity.MenuActivity" >
+        <activity
+            android:name=".activity.MenuActivity"
+            android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".activity.AStarActivity" >
+        <activity
+            android:name=".activity.AStarActivity"
+            android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".activity.ConfigActivity" >
+        <activity
+            android:name=".activity.ConfigActivity"
+            android:screenOrientation="portrait" >
         </activity>
-        <activity android:name=".activity.SaveScore" >
+        <activity
+            android:name=".activity.SaveScore"
+            android:screenOrientation="portrait" >
         </activity>
         <activity
             android:name="com.bingghost.simpletetris.activity.ScoreList"
-            android:label="@string/title_activity_score_list" >
+            android:label="@string/title_activity_score_list"
+            android:screenOrientation="portrait" >
         </activity>
     </application>
 

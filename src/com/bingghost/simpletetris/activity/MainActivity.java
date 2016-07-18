@@ -5,12 +5,11 @@ import com.bingghost.simpletetris.common.LogUtil;
 import com.bingghost.simpletetris.config.AppConfig;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-public class MainActivity extends Activity {
+public class MainActivity extends BaseActivity {
 	
 	private static final int MSG_START_MENU = 1;
 	

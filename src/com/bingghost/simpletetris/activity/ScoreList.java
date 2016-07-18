@@ -8,7 +8,6 @@ import com.bingghost.simpletetris.db.DBScore;
 import com.bingghost.simpletetris.db.ScoreInfo;
 import com.bingghost.simpletetris.db.ScoreInfoAdapter;
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -20,7 +19,7 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.PopupWindow;
 
-public class ScoreList extends Activity {
+public class ScoreList extends BaseActivity {
 	
 	private List<ScoreInfo> listScoreInfo = new ArrayList<ScoreInfo>();
 	private ScoreInfoAdapter scoreInfoAdapter = null;

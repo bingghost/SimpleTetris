@@ -5,7 +5,6 @@ import com.bingghost.simpletetris.common.LogUtil;
 import com.bingghost.simpletetris.config.AppConfig;
 import com.bingghost.simpletetris.game.TetrisAI;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -17,7 +16,7 @@ import android.widget.Spinner;
 import android.widget.ToggleButton;
 
 
-public class ConfigActivity extends Activity {
+public class ConfigActivity extends BaseActivity {
 	
 	int[] ai_levels = new int[] {
 			TetrisAI.AI_AMENTIA,

@@ -13,7 +13,6 @@ import com.bingghost.simpletetris.game.TetrisGame;
 import com.bingghost.simpletetris.ui.GameView;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
@@ -28,7 +27,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
 
-public class GameActivity extends Activity implements OnTouchListener, OnGestureListener {
+public class GameActivity extends BaseActivity implements OnTouchListener, OnGestureListener {
 	public static final int MSG_VIEW_REFRESH = 1; // 游戏界面刷新
 	public static final int MSG_GAME_STOP = 2; // 游戏结束
 

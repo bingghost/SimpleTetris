@@ -5,7 +5,6 @@ import com.bingghost.simpletetris.astar.AStar;
 import com.bingghost.simpletetris.astar.AStarView;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
@@ -17,7 +16,7 @@ import android.view.View;
 import android.widget.Button;
 
 // implements OnTouchListener,OnGestureListener
-public class AStarActivity extends Activity {
+public class AStarActivity extends BaseActivity {
 
 	public static final int VIEW_REFRESH = 1;
 	public static final String DEBUG_TAG = "__BING__";

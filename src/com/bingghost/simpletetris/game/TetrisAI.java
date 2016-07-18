@@ -304,6 +304,7 @@ public class TetrisAI {
 	            }
 	        }
 	    }
+	    
 	    // 最小高度
 	    find = false;
 	    int minHeight = mTetrisGame.mGameHeight-mCurY+3;

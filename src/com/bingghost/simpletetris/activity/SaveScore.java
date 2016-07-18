@@ -4,7 +4,6 @@ import com.bingghost.simpletetris.R;
 import com.bingghost.simpletetris.common.LogUtil;
 import com.bingghost.simpletetris.db.DBScore;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -12,7 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class SaveScore extends Activity {
+public class SaveScore extends BaseActivity {
 	
 	EditText mEditScore = null;
 	int score = 0;
