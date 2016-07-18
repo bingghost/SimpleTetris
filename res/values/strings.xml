@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleTetris</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="start_game">开始游戏</string>
+    <string name="start_astar">A星算法Demo</string>
+    <string name="game_menu">游戏菜单</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="game_set">游戏设置</string>
+    <string name="score_list">排行榜</string>
+    <string name="create_map">生成地图</string>
+    <string name="find_path">开始寻路</string>
+    <string name="sound_switch">音乐开关:</string>
+    <string name="music_switch">音效开关:</string>
+    <string name="ai_level">AI级别:</string>
+    <string name="ai_speed">AI速度:</string>
+    <string name="game_level">游戏难度:</string>
+    <string name="game_setting">游戏设置</string>
+    <string name="edit_score">战绩榜</string>
+    <string name="save_hint">请输入您的大名</string>
+    <string name="btn_save">存档</string>
+    <string name="score_info">您的战绩为:</string>
+    <string name="title_activity_score_list">ScoreList</string>
+    <string name="delete">删除</string>
+
+</resources>

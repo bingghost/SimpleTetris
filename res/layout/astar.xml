@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.bingghost.simpletetris.astar.AStarView
+        android:id="@+id/aStarView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_find_path"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_nice_btn"
+            android:text="@string/find_path"
+            android:layout_gravity="center"
+            android:textColor="@drawable/selector_font_color" />
+
+        <Button
+            android:id="@+id/btn_create_map"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="@drawable/selector_nice_btn"
+            android:text="@string/create_map"
+            android:textColor="@drawable/selector_font_color" />
+
+    </LinearLayout>
+
+</LinearLayout>
